@@ -18,7 +18,6 @@
             pkgs.ruff
             pkgs.pyright
             pkgs.black
-            pkgs.ruff-lsp
           ];
         };
       };
