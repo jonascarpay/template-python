@@ -3,6 +3,7 @@
   inputs.mkflake.url = "github:jonascarpay/mkflake";
 
   outputs = { nixpkgs, mkflake, self }: mkflake.lib.mkflake {
+    topLevel.templates.default.path = ./.;
     perSystem = system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
