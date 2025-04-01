@@ -13,6 +13,5 @@ Simple Nix template for getting a Python development shell.
 The development shell includes the following tools:
 - `ruff` for linting
 - `pyright` for type checking
-- `black` for formatting
 
 These can all integrate into your editor with the right setup.

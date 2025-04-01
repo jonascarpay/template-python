@@ -17,7 +17,6 @@
             myPython
             pkgs.ruff
             pkgs.pyright
-            pkgs.black
           ];
         };
       };
