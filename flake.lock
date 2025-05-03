@@ -1,42 +1,6 @@
 {
   "nodes": {
-    "mkflake": {
-      "locked": {
-        "lastModified": 1712284878,
-        "narHash": "sha256-66dqRuL4kQw9r/xthE7RbTdaszwUZLdjwFwFloeu6NI=",
-        "owner": "jonascarpay",
-        "repo": "mkflake",
-        "rev": "eb1172a9cd34e0a42848e787fb11a673f658c9e2",
-        "type": "github"
-      },
-      "original": {
-        "owner": "jonascarpay",
-        "repo": "mkflake",
-        "type": "github"
-      }
-    },
-    "nixpkgs": {
-      "locked": {
-        "lastModified": 1743376919,
-        "narHash": "sha256-bwNLqGmM+/eLJkbWyroKRhu0bBbB2/LrYdsm+LebuaI=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "419ea68a83290cfc41514d9474faa0e06b332346",
-        "type": "github"
-      },
-      "original": {
-        "owner": "NixOS",
-        "ref": "release-24.11",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    "root": {
-      "inputs": {
-        "mkflake": "mkflake",
-        "nixpkgs": "nixpkgs"
-      }
-    }
+    "root": {}
   },
   "root": "root",
   "version": 7
