@@ -1,0 +1,6 @@
+target-version = "py312"
+line-length = 160
+select = ["ALL"]
+ignore = [
+  # Add ignored rules here
+]
