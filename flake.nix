@@ -5,6 +5,11 @@
   outputs = { self }: {
     templates = {
 
+      rust = {
+        path = ./rust;
+        description = "Rust template";
+      };
+
       python-uv = {
         path = ./python-uv;
         description = "uv, with nix providing uv, pyright, ruff and the python interpreter";
